@@ -1,0 +1,42 @@
+* {
+	font-family:"Avenir";
+	font-size:20px;
+}
+
+header {
+	font-size:125px;
+	color:green;
+}
+
+p {
+	padding:20px;
+	font-size:20px;
+}
+
+.home {
+	margin-left:20px;
+	margin-top:20px;
+	margin-bottom:-20px;
+	padding:0px;
+}
+
+.nonhome {
+	margin-left:20px;
+	margin-top:20px;
+	margin-bottom:-10px;
+}
+
+a {
+	font-size:20px;
+	transition: all 0.5s ease;
+	transition: all 0.5s ease-out;
+	padding: 10px;
+}
+
+a:link, a:visited {
+	color:black;
+}
+
+a:hover, a:active {
+  color: green;
+}
