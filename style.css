@@ -3,35 +3,39 @@
 	font-size:20px;
 }
 
+.heads {
+	padding:7px;
+	margin:7px;
+}
+
 header {
-	font-size:125px;
+	font-size:150px;
 	color:green;
 }
 
 p {
-	padding:20px;
-	font-size:20px;
+	padding-left:15px;
+	padding-top:7px;
+	padding-bottom:7px;
+
 }
 
 .home {
-	margin-left:20px;
+	margin-left:15px;
 	margin-top:20px;
 	margin-bottom:-20px;
 	padding:0px;
 }
 
 .nonhome {
-	margin-left:20px;
+	margin-left:15px;
 	margin-top:20px;
 	margin-bottom:-10px;
 }
 
 a {
-	font-size:20px;
 	transition: all 0.5s ease;
 	transition: all 0.5s ease-out;
-	padding: 0px;
-	margin:0px;
 }
 
 a:link, a:visited {
