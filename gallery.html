@@ -1,0 +1,361 @@
+<!-- Base for All Files -->
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+        rel="stylesheet" integrity="sha384-
+        EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
+        crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+
+
+        <!-- tab information: replace with logo -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <title>Gallery</title>
+        <link rel="icon" type="image/x-icon" href="https://www.iconarchive.com/download/i132920/bootstrap/bootstrap/Bootstrap-terminal-fill.1024.png">
+    </head>
+    <body>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" 
+        crossorigin="anonymous"></script>
+
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <div class="container-xxl">
+                <a href="/" class="navbar-brand">
+                    <span class="fw-bold logo">
+                        <span class="tt" data-bs-placement="bottom" title="Return to Home">
+
+                        <!-- replace with logo -->
+                        Matthew Sahota, B.Sc.
+                        </span>
+                    </span>
+                </a>
+
+                <!-- Home Button -->
+                <button class="navbar-toggler" type="button" 
+                data-bs-toggle="collapse" data-bs-target="#main-nav" 
+                aria-controls="main-nav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- navbar links -->
+                <div class="collapse navbar-collapse justify-content-end align-center" id="main-nav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="/" class="nav-link">Home</a>
+                        </li>
+                        <!--
+                        <li class="nav-item">
+                            <a href="about.html" class="nav-link">About Us</a>
+                        </li>
+                    -->
+                        <li class="nav-item">
+                            <a href="experience.html" class="nav-link">Experience</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="education.html" class="nav-link">Education</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="gallery.html" class="nav-link">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="contact.html" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- End of Base -->
+
+        <!-- intro section -->
+        <section id="services" class="bg-light">
+            <div class="container-,d">
+                <div class="text-center pt-5 my-5">
+                    <h1 class="display-5 fw-bold">Gallery</h1>
+                    <h4 class="lead text-muted">Here are some of my photos.</h4>
+                </div>
+                
+
+                <div class="accordion" id="exp">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading-1">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#bc" aria-expanded="false" aria-controls="chapter-1">
+                            Beautiful British Columbia
+                        </button>
+                        </h2>
+                        <div id="bc" class="accordion-collapse collapse"
+                        aria-labelledby="heading-1" data-bs-parent="exp">
+                        <div class="accordion-body">
+                            <section id="pics">
+                                <div class="container-lg pb-5">
+                                    
+                    <div id="demo" class="carousel slide pt-5" data-bs-ride="carousel">
+                    
+                        
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                          <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                          <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                          <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+                        </div>
+                      
+                        
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <center>
+                            <img src="../pictures/20250215_134005.jpg" alt="Image 1" class="d-block" style="height:80vh; width:85vw; object-fit: cover">
+                        </center>
+                        </div>
+                          <div class="carousel-item">
+                            <center>
+                            <img src="../pictures/20241030_183648.jpg" alt="Image 2" class="d-block" style="height:80vh; width: 85vw; object-fit: cover">
+                        </center>
+                        </div>
+                          <div class="carousel-item">
+                                <center>
+                            <img src="../pictures/20240915_102413.jpg" alt="Image 3" class="d-block" style="height:80vh; width:85vw; object-fit: cover">
+                            </center>
+                        </div>
+                          <div class="carousel-item">
+                            <center>
+                            <img src="../pictures/20240929_114648.jpg" alt="Image 4" class="d-block" style="height:80vh; width: 85vw; object-fit: cover">
+                            </center>
+                        </div>
+                        </div>
+                      
+                        
+                        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon"></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                          <span class="carousel-control-next-icon"></span>
+                        </button>
+                      </div>
+                                </div>
+                    
+                            </section>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading-1">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#japan" aria-expanded="false" aria-controls="chapter-1">
+                            Japan
+                        </button>
+                        </h2>
+                        <div id="japan" class="accordion-collapse collapse"
+                        aria-labelledby="heading-1" data-bs-parent="exp">
+                        <div class="accordion-body">
+                            <section id="pics2">
+                                <div class="container-lg pb-5">
+                                    
+                    <div id="demo2" class="carousel slide pt-5" data-bs-ride="carousel">
+                    
+                        
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#demo2" data-bs-slide-to="0" class="active"></button>
+                          <button type="button" data-bs-target="#demo2" data-bs-slide-to="1"></button>
+                          <button type="button" data-bs-target="#demo2" data-bs-slide-to="2"></button>
+                          <button type="button" data-bs-target="#demo2" data-bs-slide-to="3"></button>
+                          <button type="button" data-bs-target="#demo2" data-bs-slide-to="4"></button>
+                          <button type="button" data-bs-target="#demo2" data-bs-slide-to="5"></button>
+                          <button type="button" data-bs-target="#demo2" data-bs-slide-to="6"></button>
+                          <button type="button" data-bs-target="#demo2" data-bs-slide-to="7"></button>
+                          <button type="button" data-bs-target="#demo2" data-bs-slide-to="8"></button>
+                          <button type="button" data-bs-target="#demo2" data-bs-slide-to="9"></button>
+                        </div>
+                      
+                        
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <center>
+                            <img src="../pictures/20240727_124618.jpg" alt="Image 1" class="d-block" style="height:80vh; width:85vw; object-fit: cover">
+                        </center>
+                        </div>
+                          <div class="carousel-item">
+                            <center>
+                            <img src="../pictures/20240728_154824.jpg" alt="Image 2" class="d-block" style="height:80vh; width: 85vw; object-fit: cover">
+                        </center>
+                        </div>
+                          <div class="carousel-item">
+                                <center>
+                            <img src="../pictures/20240728_193507.jpg" alt="Image 3" class="d-block" style="height:80vh; width:85vw; object-fit: cover">
+                            </center>
+                        </div>
+                          <div class="carousel-item">
+                            <center>
+                            <img src="../pictures/20240729_105503.jpg" alt="Image 4" class="d-block" style="height:80vh; width: 85vw; object-fit: cover">
+                            </center>
+                        </div>
+                        <div class="carousel-item">
+                            <center>
+                            <img src="../pictures/20240801_130235.jpg" alt="Image 5" class="d-block" style="height:80vh; width:85vw; object-fit: cover">
+                        </center>
+                        </div>
+                          <div class="carousel-item">
+                            <center>
+                            <img src="../pictures/20240802_174252.jpg" alt="Image 6" class="d-block" style="height:80vh; width: 85vw; object-fit: cover">
+                        </center>
+                        </div>
+                          <div class="carousel-item">
+                                <center>
+                            <img src="../pictures/20240802_180115.jpg" alt="Image 7" class="d-block" style="height:80vh; width:85vw; object-fit: cover">
+                            </center>
+                        </div>
+                          <div class="carousel-item">
+                            <center>
+                            <img src="../pictures/20240804_132401.jpg" alt="Image 8" class="d-block" style="height:80vh; width: 85vw; object-fit: cover">
+                            </center>
+                        </div>
+                        <div class="carousel-item">
+                            <center>
+                        <img src="../pictures/20240804_140716.jpg" alt="Image 9" class="d-block" style="height:80vh; width:85vw; object-fit: cover">
+                        </center>
+                    </div>
+                      <div class="carousel-item">
+                        <center>
+                        <img src="../pictures/20240806_164759.jpg" alt="Image 10" class="d-block" style="height:80vh; width: 85vw; object-fit: cover">
+                        </center>
+                    </div>
+                        </div>
+                      
+                        
+                        <button class="carousel-control-prev" type="button" data-bs-target="#demo2" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon"></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#demo2" data-bs-slide="next">
+                          <span class="carousel-control-next-icon"></span>
+                        </button>
+                      </div>
+                                </div>
+                    
+                            </section>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading-1">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#cooking" aria-expanded="false" aria-controls="chapter-1">
+                            Cooking
+                        </button>
+                        </h2>
+                        <div id="cooking" class="accordion-collapse collapse"
+                        aria-labelledby="heading-1" data-bs-parent="exp">
+                        <div class="accordion-body">
+                            <section id="pics3">
+                                <div class="container-lg pb-5">
+                                    
+                    <div id="demo3" class="carousel slide pt-5" data-bs-ride="carousel">
+                    
+                        
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#demo3" data-bs-slide-to="0" class="active"></button>
+                          <button type="button" data-bs-target="#demo3" data-bs-slide-to="1"></button>
+                          <button type="button" data-bs-target="#demo3" data-bs-slide-to="2"></button>
+                        </div>
+                      
+                        
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <center>
+                            <img src="../pictures/IMG-20240903-WA0000.jpeg" alt="Image 1" class="d-block" style="height:80vh; width:85vw; object-fit: cover">
+                        </center>
+                        </div>
+                          <div class="carousel-item">
+                            <center>
+                            <img src="../pictures/20241225_180647.jpg" alt="Image 2" class="d-block" style="height:80vh; width: 85vw; object-fit: cover">
+                        </center>
+                        </div>
+                          <div class="carousel-item">
+                                <center>
+                            <img src="../pictures/20250330_155020.jpg" alt="Image 3" class="d-block" style="height:80vh; width:85vw; object-fit: cover">
+                            </center>
+                        </div>
+                        </div>
+                      
+                        
+                        <button class="carousel-control-prev" type="button" data-bs-target="#demo3" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon"></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#demo3" data-bs-slide="next">
+                          <span class="carousel-control-next-icon"></span>
+                        </button>
+                      </div>
+                                </div>
+                    
+                            </section>
+                        </div>
+                        </div>
+                    </div>
+    
+                </div>
+
+            </div>
+        </section>
+
+        
+
+                    
+
+    <section id="footer">
+        <div>
+
+            <footer class="text-center text-white p-2 bg-dark">
+            <div>
+                <a href="/" class="navbar-brand">
+                    <span class="fw-bold text-light logo">
+
+                        <!-- replace with logo -->
+                        
+                        Matthew Sahota, B.Sc.
+                        
+                    </span>
+                </a>
+            </div>
+            <br>
+            <div>
+                <i class="bi bi-envelope-fill"></i> Email: <a class="text-light" href="mailto:mr.matthewsahota@gmail.com">mr.matthewsahota@gmail.com</a>
+            </p>
+            </div>
+            <!-- Grid container -->
+
+            <div class="pt-4">
+              
+              <section class="mb-4">
+             
+                <span class="tt" data-bs-placement="bottom" title="LinkedIn">
+                <a
+                class="btn btn-link btn-floating btn-lg text-light m-1"
+                href="https://www.linkedin.com/in/matthewhsahota/"
+                role="button" target="_blank"
+                data-mdb-ripple-color="dark"><i class="bi bi-linkedin"></i></a>
+                </span>
+               
+              </section>
+            </div>
+        
+          </footer>
+            
+          </div>
+          <!-- End of .container -->
+    </section>
+            
+
+        <!-- JS for tooltips -->
+        <script>
+            const tooltips=document.querySelectorAll(".tt")
+            tooltips.forEach(t => {
+                new bootstrap.Tooltip(t)
+            })
+        </script>
+
+    </body>
+</html>
